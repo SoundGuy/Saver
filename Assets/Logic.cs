@@ -20,5 +20,7 @@ public class Logic : MonoBehaviour {
 	public void ClickNo() {
 	}
 
-
+	public void ClickStart() {
+		Application.LoadLevel ("MainScene");
+	}
 }
