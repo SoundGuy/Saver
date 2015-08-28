@@ -82,7 +82,7 @@ public class Logic : MonoBehaviour {
 
 	
 	public void ClickShare() {
-		Application.OpenURL ("http://www.facebook.com/share.php?u=http://www.savethechildren.org/");
+		Application.OpenURL ("http://www.facebook.com/share.php?u=http://smarturl.it/Saverr");
 		
 	}
 
