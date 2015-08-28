@@ -20,7 +20,7 @@ public class Logic : MonoBehaviour {
 
 		if (Application.loadedLevelName == "ThankYou"||
 		    Application.loadedLevelName == "Congratulations") {
-			kidnameText.text = KidNames[i];
+			kidnameText.text = KidNames[i] + "?";
 		}
 
 
@@ -82,7 +82,7 @@ public class Logic : MonoBehaviour {
 
 	
 	public void ClickShare() {
-		Application.OpenURL ("");
+		Application.OpenURL ("http://www.facebook.com/share.php?u=http://www.savethechildren.org/");
 		
 	}
 
