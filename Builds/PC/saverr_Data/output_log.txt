@@ -1,0 +1,100 @@
+Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0x116)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\OdedSharon\Unity Projects\Saver\github\Saver\Builds\PC\saverr_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\OdedSharon\Unity Projects\Saver\github\Saver\Builds\PC\saverr_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\OdedSharon\Unity Projects\Saver\github\Saver\Builds\PC\saverr_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\OdedSharon\Unity Projects\Saver\github\Saver\Builds\PC\saverr_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\OdedSharon\Unity Projects\Saver\github\Saver\Builds\PC\saverr_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\OdedSharon\Unity Projects\Saver\github\Saver\Builds\PC\saverr_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\OdedSharon\Unity Projects\Saver\github\Saver\Builds\PC\saverr_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\OdedSharon\Unity Projects\Saver\github\Saver\Builds\PC\saverr_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\OdedSharon\Unity Projects\Saver\github\Saver\Builds\PC\saverr_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\OdedSharon\Unity Projects\Saver\github\Saver\Builds\PC\saverr_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\OdedSharon\Unity Projects\Saver\github\Saver\Builds\PC\saverr_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.122 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\OdedSharon\Unity Projects\Saver\github\Saver\Builds\PC\saverr_Data\Managed\System.dll (this message is harmless)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.909616 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 329.
+Total: 0.414529 ms (FindLiveObjects: 0.039266 ms CreateObjectMapping: 0.024987 ms MarkObjects: 0.344028 ms  DeleteObjects: 0.005800 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.581775 ms
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 245.
+Total: 0.435055 ms (FindLiveObjects: 0.026772 ms CreateObjectMapping: 0.018294 ms MarkObjects: 0.310116 ms  DeleteObjects: 0.079425 ms)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Logic.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.010221 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 266.
+Total: 0.365446 ms (FindLiveObjects: 0.027218 ms CreateObjectMapping: 0.016509 ms MarkObjects: 0.307885 ms  DeleteObjects: 0.012940 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.626033 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 270.
+Total: 0.475660 ms (FindLiveObjects: 0.026772 ms CreateObjectMapping: 0.017402 ms MarkObjects: 0.300746 ms  DeleteObjects: 0.129847 ms)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Logic.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.042307 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 263.
+Total: 0.571149 ms (FindLiveObjects: 0.041051 ms CreateObjectMapping: 0.020525 ms MarkObjects: 0.476553 ms  DeleteObjects: 0.031680 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.578735 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 337.
+Total: 0.418545 ms (FindLiveObjects: 0.033019 ms CreateObjectMapping: 0.025434 ms MarkObjects: 0.346705 ms  DeleteObjects: 0.012493 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.282368 ms
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 252.
+Total: 1.083846 ms (FindLiveObjects: 0.089242 ms CreateObjectMapping: 0.030342 ms MarkObjects: 0.808980 ms  DeleteObjects: 0.152604 ms)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Logic.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.749188 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.385526 ms (FindLiveObjects: 0.027218 ms CreateObjectMapping: 0.018294 ms MarkObjects: 0.326180 ms  DeleteObjects: 0.012940 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.060601 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 275.
+Total: 1.133821 ms (FindLiveObjects: 0.074517 ms CreateObjectMapping: 0.039266 ms MarkObjects: 0.724200 ms  DeleteObjects: 0.294945 ms)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Logic.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

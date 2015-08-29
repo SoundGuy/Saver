@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.Analytics;
+using System.Collections.Generic;
+
 
 public class Logic : MonoBehaviour {
 
@@ -13,6 +16,9 @@ public class Logic : MonoBehaviour {
 
 	public Text kidnameText;
 	public Image kidImage;
+
+	static int childrensaved=0;
+	static int childredskipped=0;
 
 	// Use this for initialization
 	void Start () {
@@ -43,6 +49,14 @@ public class Logic : MonoBehaviour {
 	public void ClickYes() {
 		Kids [i].GetComponent<Animator> ().Play ("MoveImage 1");
 		KidsSaved = i;
+		childrensaved++;
+		Analytics.CustomEvent("ChildSaved",
+		                      new Dictionary<string, object>
+		                      {
+			{ "ChildSavedNumber", i },
+			{ "TotalChildrenSaved", childrensaved },
+
+		});
 		Application.LoadLevel ("ThankYou");
 		//i++;
 
@@ -51,7 +65,7 @@ public class Logic : MonoBehaviour {
 	public void ClickNo() {
 		Kids [i].GetComponent<Animator> ().Play ("MoveImage 2");
 		i++;
-
+		childredskipped++;
 		if (i == 5) {
 			i=0;
 			foreach (RectTransform k in Kids) {
@@ -59,6 +73,15 @@ public class Logic : MonoBehaviour {
 			}
 
 		}
+
+		Analytics.CustomEvent("ChildSkipped",
+		                      new Dictionary<string, object>
+		                      {
+
+			{ "ChildrenSkipped", childredskipped },
+			
+		});
+
 	}
 
 	public void ClickStart() {
@@ -75,6 +98,15 @@ public class Logic : MonoBehaviour {
 			Application.LoadLevel ("NowDoSomething");
 	}
 
+
+	
+	
+	public void ClickRestart() {
+		i=0; 
+		Application.LoadLevel ("MainScene");
+	}
+
+
 	public void ClickQuit() {
 			Application.Quit(); 
 
@@ -83,6 +115,8 @@ public class Logic : MonoBehaviour {
 	
 	public void ClickShare() {
 		Application.OpenURL ("http://www.facebook.com/share.php?u=http://smarturl.it/Saverr");
+		Analytics.CustomEvent("shared",new Dictionary<string, object>
+		                      {});
 		
 	}
 
